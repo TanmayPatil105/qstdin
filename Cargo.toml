@@ -1,0 +1,7 @@
+[package]
+name = "qstdin"
+version = "0.1.0"
+authors = ["TanmayPatil105 <tanmaynpatil105@gmail.com"]
+description = "Interface for querying stdin"
+homepage = "https://github.com/TanmayPatil105/qstdin"
+license =  "GPL-3.0-or-later"
