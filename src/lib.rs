@@ -47,3 +47,23 @@ pub fn is(stream: Stdin) -> bool {
 
     stream != Stdin::Directory && stream != Stdin::File
 }
+
+#[cfg(test)]
+mod tests {
+    use super::{is, Stdin};
+
+    #[test]
+    fn is_input() {
+        assert!(is(Stdin::Input));
+    }
+
+    #[test]
+    fn is_file() {
+        assert!(!is(Stdin::File));
+    }
+
+    #[test]
+    fn is_dir() {
+        assert!(!is(Stdin::Directory));
+    }
+}

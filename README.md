@@ -2,6 +2,8 @@
 
 a simple interface for querying stdin
 
+This assumes that you have called `atty::is(Stream::Stdio)` before calling `qstdin::is(Stdin::*)`
+
 ### Install
 
 ```console
