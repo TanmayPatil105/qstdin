@@ -1,6 +1,6 @@
 [package]
 name = "qstdin"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["TanmayPatil105 <tanmaynpatil105@gmail.com"]
 description = "Interface for querying stdin"
 homepage = "https://github.com/TanmayPatil105/qstdin"
